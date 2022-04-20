@@ -1,6 +1,5 @@
 hello:
-  echo "building Hello, World!"
-  cc helloworld.cpp helloworld
+	g++ helloworld.cpp -o helloworld
   
 clean:
-  rm helloworld
+	rm helloworld
